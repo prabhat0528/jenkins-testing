@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "This is home route"
+    return "This is home"
 
 @app.route("/webhook", methods=["GET", "POST"])
 def webhook():
